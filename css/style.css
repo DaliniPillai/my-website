@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    
+}
+h1 {
+    color: #FE0000;
+    text-align: center;
+    font-size: 50px;
+}
+.banner {
+    width: 100%;
+    height: 100px;
+    background: url(../images/sunset.jpg);
+    float: left;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background: #3D3D3E;
+    clear: left;
+    float: left;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+    width: 20%;
+}
+nav ul li a {
+   display: inline;
+    text-decoration: none;
+    color: #fff;
+    
+}
+nav ul li a:hover {
+    color: #B85E6A;
+    background: #fff;
+    border: 40%;
+    width: 90%;
+}
+
+aside {
+   width: 20%;
+    background: linear-gradient(to bottom, rgba(195,71,47,1) 0%,rgba(195,71,47,1) 79%,rgba(195,71,47,0.81) 83%,rgba(125,185,232,0) 100%);
+    padding-bottom: 100px;
+    clear: left;
+    float: left;
+    
+}
+
+aside ul li{
+    font-size: 20px;
+    padding: 30px;
+    width: 10%;
+    
+}
+aside ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+aside ul li a:hover {
+    color: #000;
+}
+
+main {
+    width: 80%;
+    min-height: 500px;
+    background: #fff;
+    float: left;
+    
+    
+}
+main img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+main h2 {
+    text-align: center;
+}
+main p {
+    font-weight: 20px;
+}
+footer {
+    height: 40px;
+    width: 100%;
+    background: orange;
+    clear: both;
+}
+.main-content {
+    clear: both;
+    display: block;
+}
